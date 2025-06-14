@@ -42,7 +42,7 @@ public class BillDetailActivity extends AppCompatActivity {
 
         Button btnBackToCalculate = findViewById(R.id.btnBackToCalculate);
         btnBackToCalculate.setOnClickListener(v -> {
-            finish(); // ✅ Go back to the previous activity (if it's CalculateActivity)
+            finish(); // Go back to the previous activity (if it's CalculateActivity)
         });
 
 

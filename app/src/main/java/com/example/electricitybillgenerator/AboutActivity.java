@@ -16,7 +16,7 @@ public class AboutActivity extends AppCompatActivity {
         // GitHub clickable link
         TextView githubLink = findViewById(R.id.githubLink);
         githubLink.setOnClickListener(v -> {
-            String url = "https://github.com/yourusername"; // 🔁 Replace this
+            String url = "https://github.com/zaqzack"; // Replace this
             Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
             startActivity(intent);
         });
